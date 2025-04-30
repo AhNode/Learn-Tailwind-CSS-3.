@@ -206,11 +206,14 @@
   .right-4 {
     right: calc(var(--spacing) * 4);
   }
-  .bottom-0 {
-    bottom: calc(var(--spacing) * 0);
+  .bottom-15 {
+    bottom: calc(var(--spacing) * 15);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
+  }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
   }
   .-z-10 {
     z-index: calc(10 * -1);
@@ -316,9 +319,6 @@
   }
   .max-w-\[200px\] {
     max-width: 200px;
-  }
-  .max-w-full {
-    max-width: 100%;
   }
   .max-w-xl {
     max-width: var(--container-xl);
